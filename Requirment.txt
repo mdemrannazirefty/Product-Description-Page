@@ -1,0 +1,32 @@
+Overview:
+
+Create a responsive product description page using Bootstrap, featuring a product image carousel, detailed product information, and accordions for product description and specifications.
+
+
+Requirements:
+
+- Responsive design using Bootstrap
+
+- Navigation bar with brand and menu items
+
+- Product image carousel with multiple images
+
+- Product details section, including:
+
+    - Product name
+
+    - Tagline
+
+    - Price
+
+    - Key features list
+
+- Accordion with two sections:
+
+    - Product Description
+
+    - Technical Specifications
+
+- Footer with social media icons and links
+
+amazon demo link: https://www.amazon.com/DJI-Lightweight-Transmission-Automatic-Beginners/dp/B0BQ2T2TH9/ref=sr_1_26?crid=V3ZGL8C81UT1&dib=eyJ2IjoiMSJ9._-hLs61ed5naHYRF4fFV_-GpiFU9vRTL_wwErW0ql5aImVRgTjPJIQEGznQhgO8ire7mJFs3SBr-DIzPMwU_dfPxUPOA8DjLrVjeA9XpKgJH5U1AHpxVtlG692vDgpJQDDQVr40mGhqRoFguaDMf6QaFU4fWxQ0NUGhiXCoZHLAFbVo-jfdB_g2vtlt19TYcBZcBlZNYgLu4J_dQtgHYWIoKyS_sDmI7q2YYwk3aVXr2NsgSecJUtxYSmggAYbFWUXOf3SyjHgWqtZQyAHtmDfmGT8vxi2ngSjHNIo8FL9VzMEKfQWIaUAy6xOo5Yu0KOgOijB2lFBlzPQfx6ZU-Nd-fYkZ-UcrUfMmEYx0APw99PoW23hLImatWTv3suG2WS3tsaF_YMk4x5qO2Sh4ra3QPIrJ_wEowU0iAz-nsLiDl3jBrimP1gKyS94HnWnCa.806VVE_QeuDxUpb0pE6j0RyWckC7-vC9MwIjm6CekR4&dib_tag=se&keywords=drone&qid=1737981550&sprefix=drone%2Caps%2C352&sr=8-26&th=1

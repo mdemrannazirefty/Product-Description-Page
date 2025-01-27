@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PDP Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .carousel-item img {
+            height: 450px;
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+
+<body>
+    <!---Header-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <b class="navbar-brand" href="#">Efty Online Shop</b>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Column 1: Product Image -->
+            <div class="col-md-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/Drone1.jpg" class="d-block w-100" alt="Drone1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Drone2.jpg" class="d-block w-100" alt="Drone2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Drone3.jpg" class="d-block w-100" alt="Drone3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Drone4.jpg" class="d-block w-100" alt="Drone4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Column 2: Product Description -->
+            <div class="col-md-6">
+                <h1>DJI Mini 2 SE</h1>
+                <p class="lead">Advanced Drone Quality for you</p>
+
+                <div class="my-4">
+                    <h3 class="text-primary">$359.99</h3>
+                    <button class="btn btn-success">Add to Cart</button>
+                </div>
+
+                <div>
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>4K Ultra HD Video Resolution</li>
+                        <li>Lightweight Mini Drone with QHD Video</li>
+                        <li>360-Degree Wide-Angle Lens</li>
+                        <li>10km Max Video Transmission</li>
+                        <li>31-Min Flight Time</li>
+                        <li>Under 249 g</li>
+                        <li>Auto Return to Home</li>
+                        <li>3-Axis Gimbal Drone with Camera for Beginners</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accordion -->
+        <div class="row" id="products">
+            <div class="col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Product Description
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p> DJI Mini 2 SE must be activated in the DJI Fly App, to ensure a better product usage
+                                experience, please go to the DJI official website to download the DJI Fly App before
+                                use.</p>
+                            <p>(1) Flight time for one battery is measured in a controlled test environment.
+                                Specific test conditions are as follows: flying forward at a constant speed of 17
+                                kph in a windless laboratory environment, in photo mode (without photo taking
+                                operation during flight), and from 100% battery level until 0%.</p>
+                                <p>(2) Under the aforementioned conditions, a maximum battery life of 93 minutes can be
+                                achieved by replacing the batteries twice.</p>
+                                <p>(3) The standard aircraft weight (including the Intelligent Flight Battery,
+                                propellers, and a microSD card). The actual product weight may vary due to
+                                differences in batch materials and external factors. Registration is not required in
+                                some countries and regions. Please check local laws and regulations before use.</p>
+                                <p>(4) FCC compliant and tested in an open outdoor environment without interference.</p>
+                                <p>(5) DJI Mini 2 SE has a nominal take-off weight of less than 249 grams, you may not
+                                need to register your drone and comply with the Remote ID rule. Please visit the
+                                FAA's official website for requirements related to drone registration and Remote ID.
+                                Please always check your local laws and regulations before flying
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Technical Specifications
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <tr>
+                                    <td>Resolution</td>
+                                    <td>2.7K/30fps</td>
+                                </tr>
+                                <tr>
+                                    <td>Weight</td>
+                                    <td> 249 g </td>
+                                </tr>
+                                <tr>
+                                    <td>Photo Format</td>
+                                    <td> JPEG/DNG </td>
+                                </tr>
+                                <tr>
+                                    <td>Resolution</td>
+                                    <td>4K (3840 x 2160)</td>
+                                </tr>
+                                <tr>
+                                    <td>Field of View</td>
+                                    <td>360 degrees</td>
+                                </tr>
+                                <tr>
+                                    <td>Storage</td>
+                                    <td>256GB Local SD Card</td>
+                                </tr>
+                                <tr>
+                                    <td>Power</td>
+                                    <td>Rechargeable Battery</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What's in the box
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Drone</li>
+                                <li>Remote Controller</li>
+                                <li>Propellers</li>
+                                <li>Charger</li>
+                                <li>Power Cable</li>
+                                <li>SD Card</li>
+                                <li>Quick Start Guide</li>
+                                <li>Carrying Case</li>
+                                <li>USB-C Cable</li>
+                            </ul>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Footer-->
+    <footer class="footer-lg bg-dark py-4 mt-4">
+        <div class="container text-center text-white">
+            <div class="mb-3">
+                <a href="https://www.facebook.com/eftymdemran/" class="me-3 text-white"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/en_efty/" class="me-3 text-white"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://x.com/eftymdemran" class="me-3 text-white"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/mdemrannazirefty/" class="text-white"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            </div>
+    
+            <p>&copy; 2024-2025 Efty Online Shop | All Rights Reserved.</p>
+    
+            <div>
+                <a href="#" class="text-white me-3">Privacy Policy</a>
+                <a href="#" class="text-white me-3">Terms of Service</a>
+                <a href="#" class="text-white">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
